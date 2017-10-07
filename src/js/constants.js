@@ -1,0 +1,10 @@
+export const SOCKET_URL = 'wss://wiki-meta-explorer.herokuapp.com/';
+export const PROJECT_LIST_COMMAND = 'project.list';
+export const PAGE_LIST_COMMAND = 'page.list';
+export const PAGE_QUERY_COMMAND = 'page.query';
+export const PROJECT_SUB_COMMAND = 'project.subscribe';
+export const PROJECT_UNSUB_COMMAND = 'project.unsubscribe';
+export const PAGE_SUB_COMMAND = 'page.subscribe';
+export const PAGE_UNSUB_COMMAND = 'page.unsubscribe';
+export const PROJECT_UPDATE = 'project.update';
+export const PAGE_UPDATE = 'page.update';

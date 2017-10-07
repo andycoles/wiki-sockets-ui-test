@@ -1,0 +1,49 @@
+// settings
+$base-spacing-unit: 10px;
+
+// element defaults/resets
+ul {
+    padding: 0;
+    margin: 0;
+    li {
+        list-style-type: none;
+    }
+}
+
+h2, h3, p {
+    padding: $base-spacing-unit;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+// class structure
+.flex-grid {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+}
+
+.v-box {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.pad {
+    padding: $base-spacing-unit 0 $base-spacing-unit $base-spacing-unit;
+}
+
+.proj, .page {
+    cursor: pointer;
+    &:hover {
+        background-color: #ebebeb;
+    }
+}
